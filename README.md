@@ -1,2 +1,3 @@
 # Python-Learning-Notes-Homework
-I am a freshman at the university and I'm taking an introductory course on Python programming. To help myself and my classmates with the learning process, I have decided to create a GitHub repository where we can share our notes, assignments, and any other resources related to the course.
+## Introduction  
+As a first-year undergraduate, I am enrolled in an introductory course on Python programming. To facilitate the learning process for myself and my fellow students, I have created a GitHub repository where we can share notes, assignments, and other course-related resources.
