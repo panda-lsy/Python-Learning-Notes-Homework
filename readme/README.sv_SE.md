@@ -1,6 +1,6 @@
-# Python学习-笔记与作业整理
-## 介绍
-作为本科一年级学生，我正在学习 Python 编程入门课程。为了方便自己和同学们的学习，我创建了一个 GitHub 仓库，在这里我们可以共享笔记、作业和其他课程相关资源。
+# Python Learning - Anteckningar och uppgifter Organisation
+## Inledning
+Som förstaårsstudent läser jag en introduktionskurs i Python-programmering. För att göra det enklare för mig och mina klasskamrater har jag skapat ett GitHub-arkiv där vi kan dela anteckningar, uppgifter och andra kursrelaterade resurser.
 # README.md
 - de_DE [Deutsch](readme/README.de_DE.md)
 - en [English](README.md)
