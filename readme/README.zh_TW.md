@@ -1,7 +1,8 @@
 # Python學習-筆記与作業
 ## Links
--Gitbook [Reading Online as an E-Book](https://mc-shengxia.gitbook.io/python-learning-notes/)  
--GitHub [Check the Code](https://github.com/panda-lsy/Python-Learning-Notes-Homework)
+- Gitbook [Reading Online as an E-Book](https://mc-shengxia.gitbook.io/python-learning-notes/)  
+- GitHub [Check the Code](https://github.com/panda-lsy/Python-Learning-Notes-Homework)
+- TopCloud-E-Manual [For Chinese Users](https://5q2gw35mpe.k.topthink.com/@python-study-note)
 
 ## 簡介  
 身為大學一年級的學生，我正在學習 Python 程式設計的入門課程。為了促進我和同學們的學習過程，我建立了一個 GitHub 資源庫，我們可以在這裡分享筆記、作業和其他課程相關的資源。

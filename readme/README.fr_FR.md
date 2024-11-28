@@ -1,7 +1,8 @@
 # Python-Learning-Notes-Homework
 ## Links
--Gitbook [Reading Online as an E-Book](https://mc-shengxia.gitbook.io/python-learning-notes/)  
--GitHub [Check the Code](https://github.com/panda-lsy/Python-Learning-Notes-Homework)
+- Gitbook [Reading Online as an E-Book](https://mc-shengxia.gitbook.io/python-learning-notes/)  
+- GitHub [Check the Code](https://github.com/panda-lsy/Python-Learning-Notes-Homework)
+- TopCloud-E-Manual [For Chinese Users](https://5q2gw35mpe.k.topthink.com/@python-study-note)
 
 ## Introduction 
 En tant qu'étudiant de première année, je suis un cours d'introduction à la programmation Python. Pour faciliter mon travail et celui de mes camarades de classe, j'ai créé un dépôt GitHub où nous pouvons partager des notes, des devoirs et d'autres ressources liées au cours.

@@ -1,7 +1,8 @@
 # Python Learning - Organização de notas e tarefas
 ## Links
--Gitbook [Reading Online as an E-Book](https://mc-shengxia.gitbook.io/python-learning-notes/)  
--GitHub [Check the Code](https://github.com/panda-lsy/Python-Learning-Notes-Homework)
+- Gitbook [Reading Online as an E-Book](https://mc-shengxia.gitbook.io/python-learning-notes/)  
+- GitHub [Check the Code](https://github.com/panda-lsy/Python-Learning-Notes-Homework)
+- TopCloud-E-Manual [For Chinese Users](https://5q2gw35mpe.k.topthink.com/@python-study-note)
 
 ## Introdução
 Como estudante do primeiro ano de licenciatura, estou a frequentar um curso introdutório de programação em Python. Para facilitar a minha vida e a dos meus colegas de turma, criei um repositório no GitHub onde podemos partilhar notas, tarefas e outros recursos relacionados com o curso.

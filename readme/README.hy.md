@@ -1,7 +1,8 @@
 # Python ուսուցում - Նոթեր և աշխատանքների կազմակերպում
 ## Links
--Gitbook [Reading Online as an E-Book](https://mc-shengxia.gitbook.io/python-learning-notes/)  
--GitHub [Check the Code](https://github.com/panda-lsy/Python-Learning-Notes-Homework)
+- Gitbook [Reading Online as an E-Book](https://mc-shengxia.gitbook.io/python-learning-notes/)  
+- GitHub [Check the Code](https://github.com/panda-lsy/Python-Learning-Notes-Homework)
+- TopCloud-E-Manual [For Chinese Users](https://5q2gw35mpe.k.topthink.com/@python-study-note)
 
 ## Ներածություն  
 Որպես բակալավրի առաջին կուրսի ուսանող, ես սովորում եմ Python ծրագրավորման մուտքի դասընթաց: Ինձ և իմ դասընկերների ուսուցումը հեշտացնելու համար ես ստեղծել եմ GitHub պահոց, որտեղ կարող ենք կիսվել նոթերով, աշխատանքներով և այլ դասընթացի հետ կապված ռեսուրսներով:

@@ -1,7 +1,8 @@
 # Python Learning - Anteckningar och uppgifter Organisation
 ## Links
--Gitbook [Reading Online as an E-Book](https://mc-shengxia.gitbook.io/python-learning-notes/)  
--GitHub [Check the Code](https://github.com/panda-lsy/Python-Learning-Notes-Homework)
+- Gitbook [Reading Online as an E-Book](https://mc-shengxia.gitbook.io/python-learning-notes/)  
+- GitHub [Check the Code](https://github.com/panda-lsy/Python-Learning-Notes-Homework)
+- TopCloud-E-Manual [For Chinese Users](https://5q2gw35mpe.k.topthink.com/@python-study-note)
 
 ## Inledning
 Som förstaårsstudent läser jag en introduktionskurs i Python-programmering. För att göra det enklare för mig och mina klasskamrater har jag skapat ett GitHub-arkiv där vi kan dela anteckningar, uppgifter och andra kursrelaterade resurser.
