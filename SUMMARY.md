@@ -2,7 +2,7 @@
 
 ## Chapter 1 – Introduction to Python Programming
 
-- [[Assignment] Chapter 1 – Introduction to Python Programming.ipynb](Chapter_1_–_Introduction_to_Python_Programming\[Assignment]_Chapter_1_–_Introduction_to_Python_Programming.ipynb.md)
+- [[Assignment] Chapter 1 – Introduction to Python Programming](Chapter_1_–_Introduction_to_Python_Programming\[Assignment]_Chapter_1_–_Introduction_to_Python_Programming.md)
 - [[Note] Chapter 1 – Introduction to Python Programming](Chapter_1_–_Introduction_to_Python_Programming\[Note]_Chapter_1_–_Introduction_to_Python_Programming.md)
 
 ## Chapter 2 – Working with conditional and iterative statements
