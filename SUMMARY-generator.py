@@ -4,7 +4,9 @@ import os
 def generate_summary(root_dir):
     # 创建或清空SUMMARY.md文件
     with open(os.path.join(root_dir, 'SUMMARY.md'), 'w',encoding='utf-8') as summary_file:
-        summary_file.write('# Summary\n\n')
+        summary_file.write('# Table of contents\n\n')
+
+        summary_file.write('* [README](README.md)\n\n')
 
         # 遍历根目录下的所有子目录
         for subdir, dirs, files in os.walk(root_dir):
@@ -23,7 +25,7 @@ def generate_summary(root_dir):
             relative_path_ = os.path.relpath(subdir_, root_dir)
 
             # 写入子目录标题到SUMMARY.md
-            summary_file.write(f'## {relative_path_}\n\n')
+            summary_file.write(f'* {relative_path_}\n\n')
 
             # 遍历子目录中的所有Markdown文件
             for file in files:
@@ -31,7 +33,9 @@ def generate_summary(root_dir):
                     file_path = os.path.join(relative_path, file)
                     file_title = os.path.splitext(file)[0]
                     file_title = file_title.replace('_', ' ')
-                    summary_file.write(f'- [{file_title}]({file_path})\n')
+                    file_title = file_title.replace('[', '\[')
+                    file_title = file_title.replace(']', '\]')
+                    summary_file.write(f'  * [{file_title}]({file_path})\n')
 
             summary_file.write('\n')
 
