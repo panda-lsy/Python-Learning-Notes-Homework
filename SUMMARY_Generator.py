@@ -35,6 +35,7 @@ def generate_summary(root_dir):
                     file_title = file_title.replace('_', ' ')
                     file_title = file_title.replace('[', '\[')
                     file_title = file_title.replace(']', '\]')
+                    file_path = file_path.replace('\\', '/')
                     summary_file.write(f'  * [{file_title}]({file_path})\n')
 
             summary_file.write('\n')
