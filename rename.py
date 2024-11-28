@@ -5,9 +5,9 @@ def replace_spaces_with_underscores(directory):
     for root, dirs, files in os.walk(directory, topdown=False):
         # 先处理文件
         for name in files:
-            if ' ' in name:
+            if ' ' in name or ']' in name or '[' in name:
                 old_file = os.path.join(root, name)
-                new_name = name.replace(' ', '_')
+                new_name = name.replace(' ', '_').replace(']', '_').replace('[', '')
                 new_file = os.path.join(root, new_name)
                 os.rename(old_file, new_file)
                 print(f'Renamed file: {old_file} -> {new_file}')
