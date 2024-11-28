@@ -1,10 +1,10 @@
-# Python Learning - Organização de notas e tarefas
+# Python-Learning-Notes-Homework
 ## Links
 -Gitbook [Reading Online as an E-Book](https://mc-shengxia.gitbook.io/python-learning-notes/)  
 -GitHub [Check the Code](https://github.com/panda-lsy/Python-Learning-Notes-Homework)
 
-## Introdução
-作为本科一年级学生，我正在学习 Python 编程入门课程。为了方便自己和同学们的学习，我创建了一个 GitHub 仓库，在这里我们可以共享笔记、作业和其他课程相关资源。
+## Introduction  
+As a first-year undergraduate, I am enrolled in an introductory course on Python programming. To facilitate the learning process for myself and my fellow students, I have created a GitHub repository where we can share notes, assignments, and other course-related resources.
 # README.md
 - de_DE [Deutsch](readme/README.de_DE.md)
 - en_US [English](readme/README.en_US.md)

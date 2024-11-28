@@ -2,6 +2,7 @@
 
 
 ```python
+# Program
 def max_(a,b,c):
     list_=[a,b,c]
     for num in list_:
@@ -22,6 +23,7 @@ Expected Output : 20
 
 
 ```python
+# Program
 def sum_(list_):
     op=0
     for i in list_:
@@ -46,6 +48,7 @@ Expected Output : "dcba4321"
 
 
 ```python
+# Program
 def palindrome(string):
     str_list=[]
     for i in range(len(string),0,-1):
@@ -67,6 +70,7 @@ palindrome("1234abcd")
 
 
 ```python
+# Program
 def checkrange(n,range_):
     if n in eval(range_):   #将字符串转换为一个范围
         print(f"{n} is in range")
@@ -94,6 +98,7 @@ No. of Lower case Characters : 12
 
 
 ```python
+# Program
 def check_up_and_low(string):
     upper=0
     lower=0
@@ -119,6 +124,7 @@ check_up_and_low(string)
 
 
 ```python
+# Program
 input_num=int(input("Enter a number: \n"))
 add_15 = lambda input_num: input_num+15
 x=int(input("Enter a number X: \n"))
@@ -136,6 +142,7 @@ print(multiply(x,y))
 
 
 ```python
+# Program
 tup=("Amy","Bat","QQ","Cat")
 a=lambda tup:sorted(list(tup))
 print(a(tup))
@@ -148,6 +155,7 @@ print(a(tup))
 
 
 ```python
+# Program
 def multiple_with_an_unknown_num(x):
     unknown_num=5
     return x*unknown_num
@@ -166,6 +174,7 @@ multiple_with_an_unknown_num(x)
 
 
 ```python
+# Program
 def sort_input_str(string):
     list_=list(string.split('-'))
     ans='-'.join(sorted(list_))
@@ -184,6 +193,7 @@ sort_input_str('green-red-yellow-black-white')
 
 
 ```python
+# Program
 n=int(input("Enter a number: \n"))
 if n<=1:
     print(1,1)
@@ -201,6 +211,7 @@ else:
 
 
 ```python
+# Program
 num=int(input("Enter a number: \n"))
 check_even_or_odd=lambda num: print('Even') if num%2==0 else 'Odd'
 check_even_or_odd(num)
@@ -213,6 +224,7 @@ check_even_or_odd(num)
 
 
 ```python
+# Program
 list_=[1,2,3,4,5]
 square=list(map(lambda x:x**2,list_))
 cube=list(map(lambda x:x**3,list_))

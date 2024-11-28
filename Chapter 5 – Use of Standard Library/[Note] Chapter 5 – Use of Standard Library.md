@@ -12,6 +12,7 @@ OS隶属于 Python 的标准库实用程序模块。该模块提供了一种可�
 
 
 ```python
+# Program
 import os
 
 print(os.name)
@@ -27,6 +28,7 @@ print(os.name)
 
 
 ```python
+# Program
 original_path = os.getcwd()     #记录初始工作目录,用于后续还原路径
 print(os.getcwd())
 ```
@@ -39,6 +41,7 @@ print(os.getcwd())
 
 
 ```python
+# Program
 os.mkdir("D:\\Demo")    #它将根据函数字符串参数中的路径，在 D 盘中创建名为 Demo 文件夹的新目录。
 ```
 
@@ -48,6 +51,7 @@ os.mkdir("D:\\Demo")    #它将根据函数字符串参数中的路径，在 D �
 
 
 ```python
+# Program
 os.chdir("D://")   
 #检查当前工作目录
 retval=os.getcwd() 
@@ -59,6 +63,7 @@ print("Directory changed successfully",retval)
 
 
 ```python
+# Program
  # 新建文件夹
 os.mkdir("D://Tempdir") 
 # 修改当前工作目录
@@ -84,6 +89,7 @@ OS模块中的 `rmdir()` 函数可以删除指定目录的绝对路径或相对�
 
 
 ```python
+# Program
 #错误示范
 os.chdir("D://tempdir") 
 #check current working directory 
@@ -113,6 +119,7 @@ os.rmdir("D://tempdir")
 
 
 ```python
+# Program
 #正确示范
 os.chdir("D://tempdir") 
 os.chdir("..")      #切换到父目录
@@ -126,6 +133,7 @@ os.rmdir("tempdir")
 
 
 ```python
+# Program
 print(dir(os)) 
 print(help(os)) 
 ```
@@ -136,6 +144,7 @@ glob 模块可查找与指定模式匹配的所有路径名。它提供了一个
 
 
 ```python
+# Program
 import glob 
 os.chdir(original_path)
 retvalue=glob.glob("*.ipynb") 
@@ -173,6 +182,7 @@ for i in range(len(sys.argv)):
 
 
 ```python
+# Program
 import sys   
 print(sys.argv) 
 print(type(sys.argv)) 
@@ -194,6 +204,7 @@ Python math 模块定义了最著名的数学函数，包括三角函数、表�
 
 
 ```python
+# Program
 import math
 print(math.pi)
 print(math.e)
@@ -209,6 +220,7 @@ print(math.e)
 
 
 ```python
+# Program
 import math 
 number=2e-7 
 print('log(fabs(x), base) is',math.log(math.fabs(number),10))   #math.fabs()取绝对值
@@ -223,6 +235,7 @@ print('log(fabs(x), base) is',math.log(math.fabs(number),10))   #math.fabs()取�
 
 
 ```python
+# Program
 x=13 # small value of of x     
 print('log10(x) is :', math.log10(x))     
 ```
@@ -235,6 +248,7 @@ print('log10(x) is :', math.log10(x))
 
 
 ```python
+# Program
 number = 1  # small value of of x     
 print('The given number (x) is :', number)     
 print('e^x (using exp() function) is :', math.exp(number))  
@@ -249,6 +263,7 @@ print('e^x (using exp() function) is :', math.exp(number))
 
 
 ```python
+# Program
 number = math.floor(10.25201)  
 print("The floor value is:",number)   
 ```
@@ -264,6 +279,7 @@ print("The floor value is:",number)
 
 
 ```python
+# Program
 number = math.ceil(10.25201)  
 print("The ceil value is:",number)  
 ```
@@ -276,6 +292,7 @@ math.factorial() 此方法返回给定数字 x 的阶乘。如果 x 不是整数
 
 
 ```python
+# Program
 number = math.factorial(7)   
 print("The factorial of number:",number)  
 ```
@@ -288,6 +305,7 @@ print("The factorial of number:",number)
 
 
 ```python
+# Program
 number = math.pow(10,2)   
 print("The power of number:",number)  
 ```
@@ -305,6 +323,7 @@ Random模块提供了进行随机选择的工具：
 
 
 ```python
+# Program
 import random 
 print(random.choice(['apple', 'pear', 'banana']))
 print(random.sample(range(100), 10)) # sampling without replacement 
@@ -326,6 +345,7 @@ print(random.randrange(6)) # random integer chosen from range(6)
 
 
 ```python
+# Program
 import statistics 
 data = [2.75, 1.75, 1.25, 0.25, 0.5, 1.25, 3.5] 
 print(statistics.mean(data))  
@@ -352,6 +372,7 @@ Python 提供的 datetime 模块可以处理真实的日期和时间。
 
 
 ```python
+# Program
 import time  
 #prints the number of ticks spent since 12 AM, 1st January 1970   
 print(time.time())   
@@ -365,6 +386,7 @@ time模块的 `localtime()` 函数用于获取当前时间元组。请看下面�
 
 
 ```python
+# Program
 print(time.localtime(time.time()))
 ```
 
@@ -376,6 +398,7 @@ print(time.localtime(time.time()))
 
 
 ```python
+# Program
 print(time.asctime(time.localtime(time.time())))   
 ```
 
@@ -388,6 +411,7 @@ print(time.asctime(time.localtime(time.time())))
 
 
 ```python
+# Program
 import datetime   
 #returns the current datetime object      
 print(datetime.datetime.now()) 
@@ -398,6 +422,7 @@ Python 的calendar模块提供了一个日历对象，该对象包含各种用�
 
 
 ```python
+# Program
 import calendar    
 cal = calendar.month(2020,7)     
 #printing the calendar of December 2018     
@@ -425,6 +450,7 @@ print(cal)
 
 
 ```python
+# Program
 import zlib 
 s = b'witch which has which witches wrist watch' 
 print(len(s),s) 

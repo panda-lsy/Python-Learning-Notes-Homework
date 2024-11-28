@@ -6,6 +6,7 @@
 
 
 ```python
+# Program
 def print_me(string):
     print(string)
     return
@@ -17,6 +18,7 @@ print_me("Hello World")
 
 
 ```python
+# Program
 def add(a,b):
     c=a+b
     return c
@@ -34,11 +36,13 @@ add(3,4)
 
 
 ```python
+# Program
 
 ```
 
 
 ```python
+# Program
 def change_list(mylist):
     mylist.append([1,2,3])
     print("Values inside the function",mylist)
@@ -50,6 +54,7 @@ print("Values outside the function",mylist)
 
 
 ```python
+# Program
 def modify(x):
     x =15
     print(x,id(x))
@@ -65,6 +70,7 @@ print(x,id(x))
 
 
 ```python
+# Program
 def add_num(a,b):
     c=a+b
     return c
@@ -80,6 +86,7 @@ add_num(3,4)
 
 
 ```python
+# Program
 def check_even_or_odd(num):
     if num%2==0:
         ans="Even"
@@ -98,6 +105,7 @@ check_even_or_odd(5)
 
 
 ```python
+# Program
 def check_prime(num):
     if num<=1:
         ans="Prime"
@@ -123,6 +131,7 @@ check_prime(5)
 
 
 ```python
+# Program
 def print_factorial(num):
     ans=1
     for i in range(1,num+1):
@@ -156,6 +165,7 @@ print_factorial(5)
 
 
 ```python
+# Program
 def grocery(item,price):
     print('Item = %s' %item)
     print('Price = %s' %price)
@@ -169,6 +179,7 @@ grocery("banana",35)    #位置参数
 
 
 ```python
+# Program
 def plus(*args):    #不定长参数
     a=0
     for i in args:
@@ -186,6 +197,7 @@ plus(1,2,3,4,5)
 
 
 ```python
+# Program
 def cauculator_(cau_type,*args):
     if cau_type=='add':
         return sum(args)
@@ -235,10 +247,12 @@ global单独输出会作为字典
 
 
 ```python
+# Program
 
 ```
 
 
 ```python
+# Program
 
 ```

@@ -6,6 +6,7 @@
 
 
 ```python
+# Program
 date="2024-03-2"
 M_D=[("01","31"),("02","29"),("03","31"),("04","30"),("05","31"),("06","30"),("07","31"),("08","31"),("09","30"),("10","31"),("11","30"),("12","31")]
 #根据给定日期分割数据
@@ -35,6 +36,7 @@ else:
 
 
 ```python
+# Program
 #设定给定数据
 nums=[1,2,3,4]
 #输出最大的一个
@@ -48,6 +50,7 @@ print(max(nums))
 
 
 ```python
+# Program
 num=19
 str_num=str(num)
 list_nums=[]
@@ -73,6 +76,7 @@ else:
 
 
 ```python
+# Program
 #设定两个数字,nums[0]在运算符左边,nums[1]在运算符右边
 num1=int(input("请输入第一个数\n"))
 num2=int(input("请输入第二个数\n"))
@@ -102,6 +106,7 @@ if method=="/":
 
 
 ```python
+# Program
 email="1234@qq.com"
 if "@" in email and "." in email:
     print(f"{email} is in a valid format")
@@ -116,6 +121,7 @@ else:
 
 
 ```python
+# Program
 #所有可能的选择
 choose=["R","P","S"]
 win_choose=["P","S","R"]
@@ -142,6 +148,7 @@ else:
 
 
 ```python
+# Program
 i=0
 while i != 10:
     i+=1
@@ -164,6 +171,7 @@ while i != 10:
 
 
 ```python
+# Program
 n=5
 i=0
 sum=0
@@ -180,6 +188,7 @@ print(sum)
 
 
 ```python
+# Program
 #给定数字
 n=5
 #零
@@ -197,6 +206,7 @@ print(sum)
 
 
 ```python
+# Program
 num=123456789
 str_num=str(num)
 i=1
@@ -214,6 +224,7 @@ print(rev_num)
 
 
 ```python
+# Program
 a=1
 b=1
 n=5
@@ -235,6 +246,7 @@ print(f"{list}")
 
 
 ```python
+# Program
 #给定一个数字
 num=3
 #数据处理
@@ -275,6 +287,7 @@ print(f"{num} is a happy number")
 
 
 ```python
+# Program
 for i in range(2,21,2):
     print(i)
 ```
@@ -295,6 +308,7 @@ for i in range(2,21,2):
 
 
 ```python
+# Program
 list=[1,2,3,4,5,6,7,8,9]
 sum=0
 for i in range(len(list)):
@@ -309,6 +323,7 @@ print(sum)
 
 
 ```python
+# Program
 string="The quick brown fox jumps over the lazy dog"
 count=0
 for i in range(len(string)):
@@ -324,6 +339,7 @@ print(count)
 
 
 ```python
+# Program
 list=[1,2,3,4,5,6,7,8,9]
 for i in range(len(list)):
     #骑驴找驴
@@ -339,6 +355,7 @@ for i in range(len(list)):
 
 
 ```python
+# Program
 for i in range(1,10):
     for u in range(1,10):
         if u<9:
@@ -365,6 +382,7 @@ for i in range(1,10):
 
 
 ```python
+# Program
 for i in range(11):
     if i%2==0:
         print(i)
@@ -384,6 +402,7 @@ for i in range(11):
 
 
 ```python
+# Program
 list=["Abandon","aobama","cliff","bilibili"]
 for i in range(len(list)):
     if list[i][0]== "A" or list[i][0]== "a":
@@ -400,6 +419,7 @@ for i in range(len(list)):
 
 
 ```python
+# Program
 for i in range(51):
     if i%5!=0:
         print(i)

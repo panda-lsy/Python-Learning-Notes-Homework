@@ -2,6 +2,7 @@
 
 
 ```python
+# Program
 # Declare a value x
 x = 10
 # Print the value of X
@@ -15,6 +16,7 @@ print(x)
 
 
 ```python
+# Program
 # Declare two variable a and b
 a = 5
 b = 3
@@ -36,6 +38,7 @@ print(b)
 
 
 ```python
+# Program
 # Assign the values of 25. 5 to variable
 price = 25.5
 # print it's type
@@ -49,6 +52,7 @@ print(type(price))
 
 
 ```python
+# Program
 # Create a variable name
 name = "LiuShunyao"
 # print a greeting message
@@ -62,6 +66,7 @@ print("Hello,", name)
 
 
 ```python
+# Program
 # Assign a string to a variable sentence
 sentence = "The quick brown fox jumps over a lazy dog"
 # split into a list of words 
@@ -79,6 +84,7 @@ print(sentence)
 
 
 ```python
+# Program
 # Create a variable num
 num = 100
 # Check if it is of type integer
@@ -93,6 +99,7 @@ print(Is_Type_Int)
 
 
 ```python
+# Program
 # Convert the integer 100 to a string
 num = 100
 num = str(num)
@@ -109,6 +116,7 @@ print(result)
 
 
 ```python
+# Program
 # declare a tuple
 tup = (10, 20, 30, 40)
 # try to change the first value
@@ -126,6 +134,7 @@ except Exception as error:
 
 
 ```python
+# Program
 # Create a dictionary with keys
 dictionary = dict(name="Liu",age="18")
 #Print the value associated with age key
@@ -139,6 +148,7 @@ print(dictionary["age"])
 
 
 ```python
+# Program
 # Create a variable x with a value of 25.
 x = 25
 #convert this value
@@ -158,20 +168,24 @@ print(type(x_boolean))
 
 
 ```python
+# Program
 
 ```
 
 
 ```python
+# Program
 
 ```
 
 
 ```python
+# Program
 
 ```
 
 
 ```python
+# Program
 
 ```

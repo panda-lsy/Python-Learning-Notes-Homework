@@ -5,6 +5,7 @@ Note: A sphere is a perfectly round geometrical object in three-dimensional spac
 
 
 ```python
+# Program
 import math
 pi = math.pi
 r = 30
@@ -23,6 +24,7 @@ Expected Output: 2019-01-01 14:43:00
 
 
 ```python
+# Program
 import datetime
 str_time="Jan 1 2019 2:43PM"
 months=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
@@ -52,6 +54,7 @@ Current Date: 2015-06-22
 
 
 ```python
+# Program
 import datetime
 cur_time="2015-06-22"
 fmt_time=datetime.datetime.strptime(cur_time,"%Y-%m-%d")
@@ -82,6 +85,7 @@ h) Day of week
 
 
 ```python
+# Program
 import datetime
 now_time=datetime.datetime.today()
 print(f"Current date and time: {now_time.strftime("%Y-%m-%d  %H:%M:%S")}")
@@ -109,6 +113,7 @@ print(f"Day of week: {now_time.strftime("%A")}")
 
 
 ```python
+# Program
 import random
 range_=[1,100]
 print(random.randint(range_[0],range_[1]))
@@ -121,6 +126,7 @@ print(random.randint(range_[0],range_[1]))
 
 
 ```python
+# Program
 import os,glob
 path=os.getcwd()
 print(f"The path is {path}")

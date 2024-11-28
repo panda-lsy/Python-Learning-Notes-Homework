@@ -20,6 +20,7 @@
 
 
 ```python
+# Program
 class T_and_S:  #创建了一个T_and_S的类
     """记录老师和同学的信息"""    #类文档字符串
     #类变量
@@ -60,6 +61,7 @@ print("{} is a {} year old {}".format(Leo.Name, Leo.Age, Leo.Role))
 
 
 ```python
+# Program
 class Employee:
     id = 10
     name = "Sam"
@@ -83,6 +85,7 @@ emp.display()
 
 
 ```python
+# Program
 class Employee:     
     id = 10    
     name = "Sam"     
@@ -107,6 +110,7 @@ class Employee:
 
 
 ```python
+# Program
 class Employee:
     count=0
     
@@ -131,6 +135,7 @@ Employee.display(emp1)
 
 
 ```python
+# Program
 class Employee:
     def __init__(self):
         print("这是非参数化构造函数")
@@ -153,6 +158,7 @@ emp1.display("Hans")
 
 
 ```python
+# Program
 class Employee:     
     id = 10    
     name = "Sam"     
@@ -168,6 +174,7 @@ class Employee:
 
 
 ```python
+# Program
 class Student:   
     def __init__(self):   
         print("The First Constructor")   
@@ -186,6 +193,7 @@ st = Student()
 
 
 ```python
+# Program
 class Test:
     def show(self):
         print(self)
@@ -205,6 +213,7 @@ t.show()
 
 
 ```python
+# Program
 del emp.id
 emp.display()
 ```
@@ -228,6 +237,7 @@ emp.display()
 
 
 ```python
+# Program
 class Test:
     pass
 Obj = Test()
@@ -254,6 +264,7 @@ type(Obj)
 
 
 ```python
+# Program
 class Student: 
     def __init__(self, name, id, age): 
         self.name = name 
@@ -307,6 +318,7 @@ print(s.age)
 
 
 ```python
+# Program
 class Student:  
     '这是关于类的文档'
     def __init__(self,name,id,age):     

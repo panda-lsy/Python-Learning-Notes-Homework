@@ -2,6 +2,7 @@
 
 
 ```python
+# Program
 ans=1
 list_=[1,2,3,4,5,6,7,8,9,10]
 for num in list_:
@@ -17,6 +18,7 @@ print(ans)
 
 
 ```python
+# Program
 list_=['Good','GG','CATC']
 count=0
 for string in list_:
@@ -33,6 +35,7 @@ print(count)
 
 
 ```python
+# Program
 tup=tuple([0,"a",list([1,2]),set([2,3]),dict({"name":"TwentyThree"})])
 for element in tup:
     print(type(element))
@@ -51,6 +54,7 @@ print(tup)
 
 
 ```python
+# Program
 list_=[1,2,3,4]
 print(type(list_))
 tup=tuple(list_)
@@ -79,6 +83,7 @@ Expected Result :
 
 
 ```python
+# Program
 dic1={1:10, 2:20} 
 dic2={3:30, 4:40} 
 dic3={5:50, 6:60} 
@@ -104,6 +109,7 @@ Expected Output :
 
 
 ```python
+# Program
 n = 5
 dic=dict()
 for i in range(n+1):
@@ -119,6 +125,7 @@ print(dic)
 
 
 ```python
+# Program
 set_={"a","b"}
 list_set_=list(set_)
 set_.discard(list_set_[-1])

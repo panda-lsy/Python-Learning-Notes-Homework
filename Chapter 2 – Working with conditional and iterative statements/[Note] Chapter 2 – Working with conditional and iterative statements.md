@@ -1,4 +1,5 @@
 ```python
+# Program
 #比较运算符：==,!=,<,>,<=,>=
 x = 5
 y = 10
@@ -12,6 +13,7 @@ print(result)
 
 
 ```python
+# Program
 #Check if x is not equal to y
 result2 = x != y
 print(result2)
@@ -22,6 +24,7 @@ print(result2)
 
 
 ```python
+# Program
 #Check if x is less than y
 result3 = x < y
 print(result3)
@@ -32,6 +35,7 @@ print(result3)
 
 
 ```python
+# Program
 #Check if x is greater than y
 result4 = x > y
 print(result4)
@@ -42,6 +46,7 @@ print(result4)
 
 
 ```python
+# Program
 # 逻辑运算符
 # and, or, not
 is_sunny = True
@@ -56,6 +61,7 @@ print(result5)
 
 
 ```python
+# Program
 # Check if it is either sunny or warm, 二者满足一个则为真
 # F + F = F
 # F + T = T
@@ -70,6 +76,7 @@ print(result6)
 
 
 ```python
+# Program
 # Negate the value of is_sunny
 # F → T
 # T → F
@@ -82,6 +89,7 @@ print(result7)
 
 
 ```python
+# Program
 temperature = 26
 is_raining = True
 # Check the temperature is between 25 and 30 degrees Celsius and it is not raining
@@ -94,6 +102,7 @@ print(result8)
 
 
 ```python
+# Program
 # Conditional Statement
 x = 4
 if x%2 == 0:
@@ -107,6 +116,7 @@ else:
 
 
 ```python
+# Program
 # Input the values
 num1 = 10
 num2 = 10
@@ -122,6 +132,7 @@ else:
 
 
 ```python
+# Program
 # Q1: Write a program that checks if a given number is positive or not
 number = 6
 if number > 0:
@@ -133,6 +144,7 @@ if number > 0:
 
 
 ```python
+# Program
 # Q2: Check a given character is a vowel
 char = "A"
 if char.lower() in "aeiou":
@@ -146,6 +158,7 @@ else:
 
 
 ```python
+# Program
 # Q3 checks if a given year is a leap year
 year = 2025
 if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
@@ -159,6 +172,7 @@ else:
 
 
 ```python
+# Program
 # Q4 takes two numbers prints which one is greater
 a = 10
 b = 15
@@ -175,6 +189,7 @@ else:
 
 
 ```python
+# Program
 # Q5 check if a given number is even or odd
 num = int(input("Enter a number: "))
 if num%2 == 0:
@@ -188,6 +203,7 @@ else:
 
 
 ```python
+# Program
 # Q6 check if a given number is a palindrome(回文)
 text = "radar"
 if text == text[::-1]:
@@ -201,6 +217,7 @@ else:
 
 
 ```python
+# Program
 # Q7 Grades correspond to scores
 score = 85
 if score>=90:
@@ -217,6 +234,7 @@ else:
 
 
 ```python
+# Program
 # Q8 Calculate Delta
 import cmath
 
@@ -243,5 +261,6 @@ else:
 
 
 ```python
+# Program
 #Check if a string only certain digests.
 ```

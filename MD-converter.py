@@ -18,6 +18,9 @@ def convert_notebooks_to_markdown(root_dir):
 
                 md_content, _ = exporter.from_notebook_node(content)
 
+                # 在每个代码块后添加 "Program" 注释
+                md_content = md_content.replace("```python", "```python\n# Program")
+
                 with open(md_path, 'w', encoding='utf-8') as f:
                     f.write(md_content)
 
@@ -25,5 +28,5 @@ def convert_notebooks_to_markdown(root_dir):
 
 
 if __name__ == "__main__":
-    root_directory = os.getcwd()
+    root_directory = os.getcwd()  # 使用当前工作目录作为根目录
     convert_notebooks_to_markdown(root_directory)

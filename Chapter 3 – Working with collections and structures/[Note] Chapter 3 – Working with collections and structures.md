@@ -15,6 +15,7 @@ Step:每隔(Step-1)个输出
 
 
 ```python
+# Program
 from soupsieve.css_match import DAYS_IN_WEEK
 
 list1 = ['physics', 'chemistry', 1997, 2000]
@@ -44,6 +45,7 @@ print( "list2[-1]: ", list2[-1])
 
 
 ```python
+# Program
 list2=[0,1,2]
 print(list2[2])
 list2[2]=2001
@@ -59,6 +61,7 @@ print(list2[2])
 
 
 ```python
+# Program
 list2.append(3)
 print(list2)
 ```
@@ -71,6 +74,7 @@ print(list2)
 
 
 ```python
+# Program
 del(list2[2])
 print(list2)
 list2.append(4)
@@ -89,6 +93,7 @@ list2.remove(4)
 
 
 ```python
+# Program
 print(len(list2))
 print(type(len(list2)))
 ```
@@ -102,6 +107,7 @@ print(type(len(list2)))
 
 
 ```python
+# Program
 list1=[3,4,5]
 print(list2+list1)
 ```
@@ -114,6 +120,7 @@ print(list2+list1)
 
 
 ```python
+# Program
 list3=["Hi","Hello"]*3
 print(list3)
 
@@ -127,6 +134,7 @@ print(list3)
 
 
 ```python
+# Program
 print("Hi" in list3)
 ```
 
@@ -138,6 +146,7 @@ print("Hi" in list3)
 
 
 ```python
+# Program
 for element in list3:
     print(element)
 ```
@@ -155,6 +164,7 @@ for element in list3:
 
 
 ```python
+# Program
 print(list3)
 print(list3.count("Hi"))
 ```
@@ -168,6 +178,7 @@ print(list3.count("Hi"))
 
 
 ```python
+# Program
 list3.reverse()
 print(list3)
 ```
@@ -181,6 +192,7 @@ print(list3)
 
 
 ```python
+# Program
 list_=[1,2,3,4,5,6,7]
 print(max(list_))
 print(min(list_))
@@ -207,6 +219,7 @@ tuple没有 `.reverse` 函数
 
 
 ```python
+# Program
 tup=(1,2,3,4,5)
 tup2=("cat","dog")
 tup3=tup+tup2
@@ -227,6 +240,7 @@ print(tuple(list4))
 
 
 ```python
+# Program
 tup1 = ('physics', 'chemistry', 1997, 2000)
 tup2 = (1, 2, 3, 4, 5, 6, 7 )
  
@@ -243,6 +257,7 @@ print("tup2[1:5]: ", tup2[1:5])
 
 
 ```python
+# Program
 tup_=(1,)
 ```
 
@@ -252,6 +267,7 @@ tup_=(1,)
 
 
 ```python
+# Program
 #d = {key1 : value1, key2 : value2 }
 ```
 
@@ -260,6 +276,7 @@ tup_=(1,)
 
 
 ```python
+# Program
 dict_={'Name':'Liu','Age':18,'Class':1}
 print("dict_['Name']:",dict_['Name'])
 ```
@@ -273,6 +290,7 @@ print("dict_['Name']:",dict_['Name'])
 
 
 ```python
+# Program
 dict_['Name']="ABC"
 print("dict_['Name']:",dict_['Name'])
 ```
@@ -287,6 +305,7 @@ print("dict_['Name']:",dict_['Name'])
 
 
 ```python
+# Program
 del dict_
 
 dict_={'Name':'Liu','Age':18,'Class':1}
@@ -305,6 +324,7 @@ print(dict_)
 
 
 ```python
+# Program
 dict_1={'Name':'Liu','Age':18,'Class':1}
 print(len(dict_1))
 print(dict_1.items())
@@ -323,6 +343,7 @@ print(dict_1.keys())
 
 
 ```python
+# Program
 dict_={'Name':'Liu','Age':18,'Class':1}
 print(str(dict_))
 print(dict_.items())
@@ -346,6 +367,7 @@ print(dict_.items())
 
 
 ```python
+# Program
 Days= {"Mon","Tue","Wed","Wed","Thu","Fri","Sat","Sun"}
 print(type(Days))
 print(Days)
@@ -377,6 +399,7 @@ print(Days)
 
 
 ```python
+# Program
 num1={1,2,3,4,5}
 num2={5,6,7,8,9}
 print(num1|num2)
@@ -394,6 +417,7 @@ print(num1-num2,num2-num1)
 
 
 ```python
+# Program
 print(num1<=num2)
 print((num1&num2)<=num2)
 ```

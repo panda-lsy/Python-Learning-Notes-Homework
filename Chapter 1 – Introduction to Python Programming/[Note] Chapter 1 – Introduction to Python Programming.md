@@ -1,4 +1,5 @@
 ```python
+# Program
 #Input
 a = 2
 b = 3
@@ -15,6 +16,7 @@ print(c)
 
 
 ```python
+# Program
 print("Welcome to Python Programming")
 ```
 
@@ -23,6 +25,7 @@ print("Welcome to Python Programming")
 
 
 ```python
+# Program
 a = 5
 print(type(a))
 ```
@@ -32,6 +35,7 @@ print(type(a))
 
 
 ```python
+# Program
 a= 5.001
 b=float(a)
 print(b)
@@ -54,6 +58,7 @@ _d = 3 #变量名不能用数字开头，可以在
 
 
 ```python
+# Program
 fruits = ["apple", "pear", "orange", "banana"]
 print(fruits)
 print(type(fruits))
@@ -67,6 +72,7 @@ print(fruits[0])
 
 
 ```python
+# Program
 number = (10, 20, 30, 40, 50, 60) #元组数据不可改变
 print(number)
 print(type(number))
@@ -79,6 +85,7 @@ print(type(number))
 
 
 ```python
+# Program
 number_range = range(1,11)
 print(list(number_range))
 print(str(number_range)) #可以把函数形式转化为字符
@@ -92,6 +99,7 @@ print(type(number_range))
 
 
 ```python
+# Program
 a = 10
 print(type(a))
 b = list(str(a))
@@ -107,6 +115,7 @@ print(c)
 
 
 ```python
+# Program
 # Dictionary (Mappings) 字典映射
 person = dict(name="Liu", age=20, city="San Francisco") #Tab补全的另外一种表示方法,将dict文字转换为dict构造函数
 print(person)           # 输出整个字典
@@ -129,6 +138,7 @@ print(person)
 
 
 ```python
+# Program
 #布尔类型
 x = 5
 y = 10
@@ -145,6 +155,7 @@ print(is_equal)
 
 
 ```python
+# Program
 #集合
 fruits_1 = {"apple", "pear", "orange", "barnana"}
 print(fruits_1)
