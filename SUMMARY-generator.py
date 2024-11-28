@@ -26,9 +26,8 @@ def generate_summary(root_dir):
             # 遍历子目录中的所有Markdown文件
             for file in files:
                 if file.endswith('.md') and file != 'SUMMARY.md':
-                    file_path = os.path.join(relative_path, file)
                     file_title = os.path.splitext(file)[0]
-                    summary_file.write(f'- [{file_title}]({file_path})\n')
+                    summary_file.write(f'- {file_title}\n')
 
             summary_file.write('\n')
 
