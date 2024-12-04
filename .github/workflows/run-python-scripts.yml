@@ -24,8 +24,8 @@ jobs:
 
     - name: Run MD_Converter.py
       run: |
-        python path/to/parent/folder/MD_Converter.py
+        python MD_Converter.py
 
     - name: Run SUMMARY_Generator.py
       run: |
-        python path/to/parent/folder/SUMMARY_Generator.py
+        python SUMMARY_Generator.py
