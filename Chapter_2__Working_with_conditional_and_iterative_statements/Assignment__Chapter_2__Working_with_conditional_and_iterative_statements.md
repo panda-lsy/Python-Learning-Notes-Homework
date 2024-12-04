@@ -30,7 +30,7 @@ else:
 ```
 
     valid date!
-    
+
 
 2. write a program to Find the largest of the four  given number.  
 
@@ -44,7 +44,7 @@ print(max(nums))
 ```
 
     4
-    
+
 
 3. Write a program that check if a given number (sum of cubes of it's digit is equal to the number itself)
 
@@ -70,7 +70,7 @@ else:
 ```
 
     The sum of the cubes of the digits of 19 isn't equal to the number itself.
-    
+
 
 4. Write a program that takes two number and an operator (+ , -, *, /) as input and peforms the specified operation. Handle division by zero errors gracefully. 
 
@@ -100,7 +100,7 @@ if method=="/":
 ```
 
     10 + 20 = 30
-    
+
 
 5. Write a program that checks if a given email addresss is in a valid format (contains "@" and ".")
 
@@ -115,7 +115,7 @@ else:
 ```
 
     1234@qq.com is in a valid format
-    
+
 
 6. Write a program that simulates a game of rock , paper , scissor and determine the winner. 
 
@@ -140,7 +140,7 @@ else:
 ```
 
     You Lose!
-    
+
 
 # while loop 
 
@@ -165,7 +165,7 @@ while i != 10:
     8
     9
     10
-    
+
 
 8. Create a program that calculates the sum of all numbers from 1 to n, where n is provided by the user.
 
@@ -182,7 +182,7 @@ print(sum)
 ```
 
     15
-    
+
 
 9. Write a program to find the factorial of a given number using a while loop.
 
@@ -200,7 +200,7 @@ print(sum)
 ```
 
     120
-    
+
 
 10. Create a program that reverses the digits of a given number using a while loop.
 
@@ -218,7 +218,7 @@ print(rev_num)
 ```
 
     987654321
-    
+
 
 11. Write a program to print the Fibonacci sequence up to a given number n using a while loop.
 
@@ -240,7 +240,7 @@ print(f"{list}")
 ```
 
     [1, 1, 2, 3, 5]
-    
+
 
 12. Write a program that checks if a given number is a happy number (repeatedly replace the numberwith the sum of the squares of it's digit until it becomes 1 or loops endlessly. 
 
@@ -279,7 +279,7 @@ print(f"{num} is a happy number")
     1
     3981
     3 is a happy number
-    
+
 
 # For loop 
 
@@ -302,7 +302,7 @@ for i in range(2,21,2):
     16
     18
     20
-    
+
 
 14. Create a program that calculates the sum of all elements in a given list using a for loop.
 
@@ -317,7 +317,7 @@ print(sum)
 ```
 
     45
-    
+
 
 15. Write a program that counts the number of vowels in a given string using a for loop.
 
@@ -333,7 +333,7 @@ print(count)
 ```
 
     11
-    
+
 
 16. Create a program that finds the largest number in a given list using a for loop.
 
@@ -349,7 +349,7 @@ for i in range(len(list)):
 ```
 
     9 is the largest number in list
-    
+
 
 17. Write a program that prints the multiplication table of a given number using a for loop.
 
@@ -374,7 +374,7 @@ for i in range(1,10):
     7 * 1 = 7 7 * 2 = 14 7 * 3 = 21 7 * 4 = 28 7 * 5 = 35 7 * 6 = 42 7 * 7 = 49 7 * 8 = 56 7 * 9 = 63
     8 * 1 = 8 8 * 2 = 16 8 * 3 = 24 8 * 4 = 32 8 * 5 = 40 8 * 6 = 48 8 * 7 = 56 8 * 8 = 64 8 * 9 = 72
     9 * 1 = 9 9 * 2 = 18 9 * 3 = 27 9 * 4 = 36 9 * 5 = 45 9 * 6 = 54 9 * 7 = 63 9 * 8 = 72 9 * 9 = 81
-    
+
 
 # Continue statement 
 
@@ -396,7 +396,7 @@ for i in range(11):
     6
     8
     10
-    
+
 
 19. Create a program that takes a list of names and prints each name unless it starts with the letter "A". Use continue to skip names starting with "A".
 
@@ -413,7 +413,7 @@ for i in range(len(list)):
 
     cliff
     bilibili
-    
+
 
 20. Write a program to display all numbers from 1 to 50 except for multiples of 5. Use the continue statement to skip such numbers.
 
@@ -467,4 +467,4 @@ for i in range(51):
     47
     48
     49
-    
+

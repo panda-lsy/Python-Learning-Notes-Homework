@@ -51,7 +51,7 @@ print("{} is a {} year old {}".format(Leo.Name, Leo.Age, Leo.Role))
 
     There are 3 People
     Leo is a 18 year old Student
-    
+
 
 ## 编写 Python 类并使用对象
 
@@ -73,7 +73,7 @@ emp.display()
 ```
 
     Sam 10
-    
+
 
 ### 创建类的实例
 下面的示例创建了上例中定义的 Employee 类的实例。  
@@ -98,7 +98,7 @@ class Employee:
 
     ID: 10 
     Name: Sam
-    
+
 
 ### 构造函数
 构造函数(`__init__`)是一种特殊的方法，用于初始化类的实例成员。  
@@ -131,7 +131,7 @@ Employee.display(emp1)
     ID: 1 
     Name: Sam
     There are 2 employees
-    
+
 
 
 ```python
@@ -149,7 +149,7 @@ emp1.display("Hans")
 
     这是非参数化构造函数
     Hello Hans
-    
+
 
 #### 构造函数的更多细节
 ##### Python 默认构造函数
@@ -184,7 +184,7 @@ st = Student()
 ```
 
     The second contructor
-    
+
 
 
 ### 方法与函数、类和类的实例的区分
@@ -205,7 +205,7 @@ t.show()
 
     <__main__.Test object at 0x000001EA4779BEF0>
     <class '__main__.Test'>
-    
+
 
 ### 删除实例变量
 通过`del 对象.实例变量()`来删除其实例变量.  
@@ -227,7 +227,7 @@ emp.display()
     ----> 1 del emp.id
           2 try:
           3     print(1)
-    
+
 
     AttributeError: 'Employee' object has no attribute 'id'
 
@@ -289,7 +289,7 @@ print(s.age)
     John
     23
     True
-    
+
 
 
     ---------------------------------------------------------------------------
@@ -300,7 +300,7 @@ print(s.age)
          17 delattr(s, 'age') 
          18 # 这将导致错误，因为属性 age 已被删除
     ---> 19 print(s.age) 
-    
+
 
     AttributeError: 'Student' object has no attribute 'age'
 
@@ -336,7 +336,7 @@ print(s.__module__)
     {'name': 'John', 'id': 101, 'age': 22}
     这是关于类的文档
     __main__
-    
+
 
 ## `Self`的使用
 在面向对象编程中，每当我们为一个类定义方法时，我们都会使用 self 作为第一个参数。 让我们看看一个名为 Cat 的类的定义。
@@ -368,7 +368,7 @@ cat1.make_sound()
 
     I am a cat.My name is Andy.I am 2 years old.
     Meow
-    
+
 
 self 关键字用于表示给定类的实例（对象）。 在本例中，两个猫对象 cat1 和 cat2 有自己的名称和年龄属性。  
 如果没有 self 参数，同一个类就无法保存这两个对象的信息。  
@@ -420,7 +420,7 @@ print(type(p1.distance))
 
     <class 'function'>
     <class 'method'>
-    
+
 
 我们可以看到，第一个是函数(Function)，第二个是方法(Method)。  
 正如 *###方法与函数、类和类的实例的区分* 所说，  
@@ -460,7 +460,7 @@ print(type(a.stat_meth))
     Look no self was passed
     <class 'function'>
     <class 'function'>
-    
+
 
 ## 多个实例
 到目前为止，我们已经定义了一个类，构建了一个对象，使用了该对象.  
@@ -492,7 +492,7 @@ s.party()
     Sally party count 1
     Jim party count 1
     Sally party count 2
-    
+
 
 构造函数有一个指向对象实例的自参数和一些附加参数，这些参数会在对象构造过程中传递给构造函数：  
 `s = PartyAnimal('Sally') `  
@@ -529,7 +529,7 @@ d.speak()
 
     dog barking
     Animal Speaking
-    
+
 
 我们将创建一个新程序，并从 `__init__()` 构造函数方法开始，我们将为每个 Fish 对象或子类填充 name_name 和 last_name 类变量。
 
@@ -564,7 +564,7 @@ terry.swim_backwards()
     Terry Fish
     The fish is swimming.
     The fish can swim backwards.
-    
+
 
 我们创建了一个 Trout 对象 `terry`，它使用了 `Fish` 类的每个方法，尽管我们没有在 `Trout` 子类中定义这些方法。  
 我们没有在 Trout 子类中定义这些方法。 我们只需将 "Terry" 的值传递给 `first_name` 变量的值，因为所有其他变量都已初始化。
@@ -587,7 +587,7 @@ casey.live_with_anemone()
     Casey Fish
     The fish is swimming.
     The clownfish is coexisting with sea anemone.
-    
+
 
 输出结果显示，小丑鱼对象 `casey` 能够使用鱼类方法 `__init__()` 和 `swim()` 以及它的子类方法 `live_with_anemone()`。
 
@@ -628,7 +628,7 @@ sammy.swim_backwards()
     Sammy Shark
     The fish is swimming.
     The shark cannot swim backwards, but can sink backwards.
-    
+
 
 鲨鱼子类成功覆盖了鱼类的 `__init__()` 和 `swim_backwards()` 方法，同时也继承了父类的 `swim()` 方法。
 
@@ -668,7 +668,7 @@ terry.swim()
     Terry Fish
     freshwater
     The fish is swimming.
-    
+
 
 输出结果显示，Trout 子类的对象 terry 既能使用子类特有的`__init__()` 变量 water，同时还能调用 Fish 父类的 `__init__()` 变量 first_name、last_name变量。  
 Python 内置函数 super() 使我们在重写父类方法时也能使用父类方法。
@@ -710,7 +710,7 @@ d.eat()
     dog barking
     Animal Speaking
     Eating bread...
-    
+
 
 ## issubclass(sub, sup) 方法
 `issubclass(sub, sup)` 方法用于检查指定类之间的关系。 它如果第一个类是第二个类的子类，则返回 `True`，否则返回 `False`。
@@ -734,7 +734,7 @@ print(issubclass(Calculation1,Calculation2))
 
     True
     False
-    
+
 
 ## isinstance (obj, class) 方法
 `isinstance()` 方法用于检查对象和类之间的关系。 如果第一个参数（即 `obj`）是第二个参数（即 `class`）的实例，则返回 `True`。
@@ -757,7 +757,7 @@ print(isinstance(d,Derived))
 ```
 
     True
-    
+
 
 ## 多态性
 多态指的是使用单个类型实体（方法，运算符或对象）来表示不同场景中的不同类型。
@@ -805,4 +805,4 @@ casey.skeleton()
 
     The shark's skeleton is made of cartilage.
     The clownfish's skeleton is made of bone.
-    
+

@@ -38,7 +38,7 @@ print( "list2[-1]: ", list2[-1])
     list2[-5:-1:-1]:  [7, 6, 5, 4]
     list2[::-1]:  [7, 6, 5, 4, 3, 2, 1]
     list2[-1]:  7
-    
+
 
 ## 列表赋值  
 直接通过中括号赋值即可
@@ -54,7 +54,7 @@ print(list2[2])
 
     2
     2001
-    
+
 
 ## 列表添加元素
 使用 ` list.append() `
@@ -67,7 +67,7 @@ print(list2)
 ```
 
     [0, 1, 2001, 3]
-    
+
 
 ## 列表删除元素
 使用 ` del(list[X]) ` 或者 ` list.pop(X) `(X是元素所在的序号,若不填写则为最后一个,若对变量赋值为它,则为最后一个元素) 或者 ` list.remove(element)`(element是元素值)
@@ -86,7 +86,7 @@ list2.remove(4)
 
     [0, 1, 3]
     [0, 1, 3]
-    
+
 
 ## 列表获取长度  
 使用 ` len(list) `,返回一个int
@@ -100,7 +100,7 @@ print(type(len(list2)))
 
     3
     <class 'int'>
-    
+
 
 ## 列表相加  
 使用 ` + `,连接两个列表
@@ -113,7 +113,7 @@ print(list2+list1)
 ```
 
     [0, 1, 3, 3, 4, 5]
-    
+
 
 ## 列表元素重复添加 
 使用 ` *X `,重复添加元素
@@ -127,7 +127,7 @@ print(list3)
 ```
 
     ['Hi', 'Hello', 'Hi', 'Hello', 'Hi', 'Hello']
-    
+
 
 ## 列表判断元素是否在列表
 使用 ` element in count `,返回一个True/False
@@ -139,7 +139,7 @@ print("Hi" in list3)
 ```
 
     True
-    
+
 
 ## 列表遍历元素的值
 使用 ` for element in list:`,第二行缩进,element可以是任意变量名,返回的是遍历的元素值
@@ -157,7 +157,7 @@ for element in list3:
     Hello
     Hi
     Hello
-    
+
 
 ## 列表判断元素出现次数
 使用 ` list.count(element) `,查找元素的数量,返回一个int
@@ -171,7 +171,7 @@ print(list3.count("Hi"))
 
     ['Hi', 'Hello', 'Hi', 'Hello', 'Hi', 'Hello']
     3
-    
+
 
 ## 列表数据反向排序
 使用 ` list.reverse() `,返回一个元素排序相反的list  
@@ -184,7 +184,7 @@ print(list3)
 ```
 
     ['Hello', 'Hi', 'Hello', 'Hi', 'Hello', 'Hi']
-    
+
 
 ## 获取特定元素
 使用 ` max(list) ` 和 `min(list)` 分别获取列表中第一个序号的最大/最小元素
@@ -200,7 +200,7 @@ print(min(list_))
 
     7
     1
-    
+
 
 ## **注意**
 **list最好不要作为变量名，否则会使list()函数失效**
@@ -232,7 +232,7 @@ print(tuple(list4))
 
     (1, 2, 3, 4, 5, 'cat', 'dog')
     (1, 2, 3, 4)
-    
+
 
 ## 元组访问
 可以使用下标索引来访问元组中的值
@@ -250,7 +250,7 @@ print("tup2[1:5]: ", tup2[1:5])
 
     tup1[0]:  physics
     tup2[1:5]:  (2, 3, 4, 5)
-    
+
 
 ## 单元素元组声明
 元组中只包含一个元素时，需要在元素后面添加逗号
@@ -282,7 +282,7 @@ print("dict_['Name']:",dict_['Name'])
 ```
 
     dict_['Name']: Liu
-    
+
 
 ## 修改Key对应的Value值
 通过 `dict[key]=new value`来进行新的赋值  
@@ -296,7 +296,7 @@ print("dict_['Name']:",dict_['Name'])
 ```
 
     dict_['Name']: ABC
-    
+
 
 ## 删除Key对应的Value值
 通过 `del dict[key]`删除对应 value  
@@ -314,7 +314,7 @@ print(dict_)
 ```
 
     {}
-    
+
 
 ## 获取字典信息  
 通过`len(dict)` 获取key/value的数量  
@@ -336,7 +336,7 @@ print(dict_1.keys())
     dict_items([('Name', 'Liu'), ('Age', 18), ('Class', 1)])
     dict_values(['Liu', 18, 1])
     dict_keys(['Name', 'Age', 'Class'])
-    
+
 
 ## 转换字典到其他数据格式
 通过 `str(dict)` 
@@ -351,7 +351,7 @@ print(dict_.items())
 
     {'Name': 'Liu', 'Age': 18, 'Class': 1}
     dict_items([('Name', 'Liu'), ('Age', 18), ('Class', 1)])
-    
+
 
 # 集合（Set）  
 ## 性质  
@@ -390,7 +390,7 @@ print(Days)
     Sat
     Tue
     {1, 'Fri', 'Sat', 'Sun', 'Mon', 'Thu', 'Wed', 'Tue'}
-    
+
 
 ## 集合的运算
 通过`|`取两个集合的并集  
@@ -410,7 +410,7 @@ print(num1-num2,num2-num1)
     {1, 2, 3, 4, 5, 6, 7, 8, 9}
     {5}
     {1, 2, 3, 4} {8, 9, 6, 7}
-    
+
 
 ## 判断子集
 通过`<=`与`>=`来输出一个Boolean
@@ -424,4 +424,4 @@ print((num1&num2)<=num2)
 
     False
     True
-    
+

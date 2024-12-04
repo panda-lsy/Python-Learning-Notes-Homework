@@ -13,7 +13,7 @@ print(max_(a,b,c))
 ```
 
     6
-    
+
 
 #### 2. Write a Python function to sum all the numbers in a list.
 
@@ -83,7 +83,7 @@ checkrange(n,range_)
 ```
 
     6 is not in range
-    
+
 
 #### 5. Write a Python function that accepts a string and calculate the number of upper-case letters and lower case letters.
 
@@ -117,7 +117,7 @@ check_up_and_low(string)
 
     No. of Upper case characters : 3
     No. of Lower case characters : 12
-    
+
 
 #### 6. Write a Python program to create a lambda function that adds 15 to a given number passed in as an argument, also create a lambda function that multiplies argument x with argument y and print the result.
 
@@ -136,7 +136,7 @@ print(multiply(x,y))
 
     18
     20
-    
+
 
 #### 7. Write a Python program to sort a list of tuples using Lambda.
 
@@ -149,7 +149,7 @@ print(a(tup))
 ```
 
     ['Amy', 'Bat', 'Cat', 'QQ']
-    
+
 
 #### 8. Write a Python program to create a function that takes one argument, and that argument will be multiplied with an unknown given number.
 
@@ -205,7 +205,7 @@ else:
 
     1 1 2 3 5 8 13 21 34 55 89 
     
-    
+
 
 #### 11. Write a Python program to count the even, odd numbers in a given array of integers using Lambda. 
 
@@ -218,7 +218,7 @@ check_even_or_odd(num)
 ```
 
     Even
-    
+
 
 #### 12. Write a Python program to square and cube every number in a given list of integers using Lambda.
 
@@ -234,4 +234,4 @@ print(cube)
 
     [1, 4, 9, 16, 25]
     [1, 8, 27, 64, 125]
-    
+

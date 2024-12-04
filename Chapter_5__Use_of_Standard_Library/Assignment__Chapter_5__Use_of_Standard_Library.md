@@ -13,7 +13,7 @@ print(f"The surface volume and area of a sphere is {round(4*pi*r*r,2)}")
 ```
 
     The surface volume and area of a sphere is 11309.73
-    
+
 
 ### 2. Write a Python program to convert a string to datetime. 
 
@@ -41,7 +41,7 @@ print(fmt_time)
 ```
 
     2019-01-01 14:43:00
-    
+
 
 ### 3. Write a Python program to subtract five days from current date. Go to the editor 
 
@@ -62,7 +62,7 @@ print((fmt_time-datetime.timedelta(days=5)).strftime("%Y-%m-%d"))
 ```
 
     2015-06-17
-    
+
 
 ### 4. Write a Python script to display the various Date Time formats - Go to the editor 
 
@@ -107,7 +107,7 @@ print(f"Day of week: {now_time.strftime("%A")}")
     Day of year: 337
     Day of the month: 25
     Day of week: Monday
-    
+
 
 ### 5. Write a Python program to generate random integers in a specific numerical range. 
 
@@ -120,7 +120,7 @@ print(random.randint(range_[0],range_[1]))
 ```
 
     49
-    
+
 
 ### 6. Write a Python program to list only directories, files and all directories, files in a specified path.
 
@@ -139,4 +139,4 @@ print(f"The files in {path_}: {glob.glob(f"{path_}/*")}")
     The path is E:\PythonProgramming\Python-Learning-Notes-and-Homework\Python-Learning-Notes-Homework\Chapter 5 – Use of Standard Library
     The files in the path: ['E:\\PythonProgramming\\Python-Learning-Notes-and-Homework\\Python-Learning-Notes-Homework\\Chapter 5 – Use of Standard Library\\test_4_sys.py', 'E:\\PythonProgramming\\Python-Learning-Notes-and-Homework\\Python-Learning-Notes-Homework\\Chapter 5 – Use of Standard Library\\[Assignment] Chapter 5 – Use of Standard Library.ipynb', 'E:\\PythonProgramming\\Python-Learning-Notes-and-Homework\\Python-Learning-Notes-Homework\\Chapter 5 – Use of Standard Library\\[Note] Chapter 5 – Use of Standard Library.ipynb']
     The files in E:\PythonProgramming\Python-Learning-Notes-and-Homework: ['E:\\PythonProgramming\\Python-Learning-Notes-and-Homework\\Python-Learning-Notes-Homework']
-    
+

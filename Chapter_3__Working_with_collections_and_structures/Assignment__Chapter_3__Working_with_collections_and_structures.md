@@ -11,7 +11,7 @@ print(ans)
 ```
 
     3628800
-    
+
 
 #### 2. Write a Python program to count the number of strings where the string length is 2 or more and the first and last character are same from a given list of strings. 
 ##### 2. 编写一个 Python 程序，从给定的字符串列表中计算字符串长度为 2 或以上且首尾字符相同的字符串的数量。
@@ -28,7 +28,7 @@ print(count)
 ```
 
     2
-    
+
 
 #### 3. Write a Python program to create a tuple with different data types. 
 ##### 3. 编写一个 Python 程序，用不同的数据类型创建一个元组。
@@ -48,7 +48,7 @@ print(tup)
     <class 'set'>
     <class 'dict'>
     (0, 'a', [1, 2], {2, 3}, {'name': 'TwentyThree'})
-    
+
 
 #### 4. Write a Python program to convert a list to a tuple 
 
@@ -63,7 +63,7 @@ print(type(tup))
 
     <class 'list'>
     <class 'tuple'>
-    
+
 
 #### 5. Write a Python script to concatenate following dictionaries to create a new one. 
 ##### 5. 编写一个 Python 脚本，将下列字典连接起来，创建一个新的字典。
@@ -94,7 +94,7 @@ print(dic)
 ```
 
     {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
-    
+
 
 #### 6. Write a Python script to generate and print a dictionary that contains a number (between 1 and n) in the form (x, x*x). 
 
@@ -119,7 +119,7 @@ print(dic)
 ```
 
     {0: 0, 1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
-    
+
 
 #### 7. Write a Python program to remove an item from a set if it is present in the set.
 
@@ -133,4 +133,4 @@ print(set_)
 ```
 
     {'b'}
-    
+

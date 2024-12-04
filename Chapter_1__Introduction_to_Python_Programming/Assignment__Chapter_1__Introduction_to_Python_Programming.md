@@ -10,7 +10,7 @@ print(x)
 ```
 
     10
-    
+
 
 ##### Declare two variable a and b , assign then the values 5 and 3 and swap their values without using a third variable
 
@@ -32,7 +32,7 @@ print(b)
     3
     3
     5
-    
+
 
 ##### Assign the values of 25. 5 to variable priceand print it's type
 
@@ -46,7 +46,7 @@ print(type(price))
 ```
 
     <class 'float'>
-    
+
 
 ##### Create a variable name and assign your full name to it, Then printa greeting message that says : "Hello , [Your name]!"
 
@@ -60,7 +60,7 @@ print("Hello,", name)
 ```
 
     Hello, LiuShunyao
-    
+
 
 ##### Assign a string to a variable sentence split into a list of words and print the list
 
@@ -76,7 +76,7 @@ print(sentence)
 ```
 
     ['The', 'quick', 'brown', 'fox', 'jumps', 'over', 'a', 'lazy', 'dog']
-    
+
 
 # DataType 
 
@@ -93,7 +93,7 @@ print(Is_Type_Int)
 ```
 
     True
-    
+
 
 ##### Convert the integer 100 to a string and concatenate it with another string "Apples".Print the result.
 
@@ -110,7 +110,7 @@ print(result)
 ```
 
     100Apples
-    
+
 
 ##### declare a tuple with teh value (10, 20, 30, 40). try to change the first value and explain the error
 
@@ -128,7 +128,7 @@ except Exception as error:
 ```
 
     'tuple' object does not support item assignment
-    
+
 
 ##### Create a dictionary with keys , name and age and assign appropriate values to them. Print the value associated with age key 
 
@@ -142,7 +142,7 @@ print(dictionary["age"])
 ```
 
     18
-    
+
 
 ##### Create a variable x with a value of 25.convert this value into a float, a string and a boolean and print the type of each conversion 
 
@@ -164,7 +164,7 @@ print(type(x_boolean))
     <class 'float'>
     <class 'str'>
     <class 'bool'>
-    
+
 
 
 ```python
