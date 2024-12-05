@@ -9,7 +9,7 @@ print(result)
 ```
 
     False
-    
+
 
 
 ```python
@@ -20,7 +20,7 @@ print(result2)
 ```
 
     True
-    
+
 
 
 ```python
@@ -31,7 +31,7 @@ print(result3)
 ```
 
     True
-    
+
 
 
 ```python
@@ -42,7 +42,7 @@ print(result4)
 ```
 
     False
-    
+
 
 
 ```python
@@ -57,7 +57,7 @@ print(result5)
 ```
 
     False
-    
+
 
 
 ```python
@@ -72,7 +72,7 @@ print(result6)
 ```
 
     True
-    
+
 
 
 ```python
@@ -85,7 +85,7 @@ print(result7)
 ```
 
     False
-    
+
 
 
 ```python
@@ -98,7 +98,7 @@ print(result8)
 ```
 
     False
-    
+
 
 
 ```python
@@ -112,7 +112,7 @@ else:
 ```
 
     4 is even
-    
+
 
 
 ```python
@@ -140,7 +140,7 @@ if number > 0:
 ```
 
     6 is positive
-    
+
 
 
 ```python
@@ -154,7 +154,7 @@ else:
 ```
 
     A is a vowel
-    
+
 
 
 ```python
@@ -168,7 +168,7 @@ else:
 ```
 
     2025 is not a leap year
-    
+
 
 
 ```python
@@ -185,7 +185,7 @@ else:
 ```
 
     15 is greater than 10
-    
+
 
 
 ```python
@@ -199,7 +199,7 @@ else:
 ```
 
     6 is an even number
-    
+
 
 
 ```python
@@ -213,7 +213,7 @@ else:
 ```
 
     radar is a palindrome
-    
+
 
 
 ```python
@@ -257,7 +257,7 @@ else:
 ```
 
     Roots are complex: (-0.6666666666666669-1.247219128924647j), (-0.6666666666666666+1.247219128924647j)
-    
+
 
 
 ```python

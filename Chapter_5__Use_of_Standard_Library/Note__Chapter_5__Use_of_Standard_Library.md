@@ -19,7 +19,7 @@ print(os.name)
 ```
 
     nt
-    
+
 
 ### 功能
 #### 查看当前文件目录 `os.getcwd()`  
@@ -34,7 +34,7 @@ print(os.getcwd())
 ```
 
     E:\PythonProgramming\Python-Learning-Notes-and-Homework\Python-Learning-Notes-Homework\Chapter 5 – Use of Standard Library
-    
+
 
 #### 新建文件夹 `os.mkdir()`  
 通过`os.mkdir()`,创建新的目录
@@ -59,7 +59,7 @@ print("Directory changed successfully",retval)
 ```
 
     Directory changed successfully D:\
-    
+
 
 
 ```python
@@ -79,7 +79,7 @@ print("Parent directory is",retval)
 
     Directory changed successfully D:\Tempdir
     Parent directory is D:\
-    
+
 
 #### 删除工作目录 `os.rmdir()`
 OS模块中的 `rmdir()` 函数可以删除指定目录的绝对路径或相对路径。  
@@ -99,7 +99,7 @@ os.rmdir("D://tempdir")
 ```
 
     D:\tempdir
-    
+
 
 
     ---------------------------------------------------------------------------
@@ -110,7 +110,7 @@ os.rmdir("D://tempdir")
           4 print(os.getcwd()) 
           5 #remove current working directory 
     ----> 6 os.rmdir("D://tempdir")
-    
+
 
     PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'D://tempdir'
 
@@ -152,7 +152,7 @@ print(retvalue)
 ```
 
     ['[Note] Chapter 5 – Use of Standard Library.ipynb']
-    
+
 
 ## sys模块
 Python 的 `sys.argv` 属性是一个保存命令行参数的列表，它可以让我们在运行 Python 程序时直接将参数传入，并且可以通过修改这个列表来控制程序的行为。   
@@ -193,7 +193,7 @@ print(len(sys.argv))
     ['E:\\PythonProgramming\\Python-Learning-Notes-and-Homework\\.venv\\Lib\\site-packages\\ipykernel_launcher.py', '-f', 'C:\\Users\\33223\\AppData\\Roaming\\jupyter\\runtime\\kernel-ce52df91-c498-48d6-b483-22836cd1c4f1.json']
     <class 'list'>
     3
-    
+
 
 ## 数学运算
 Python math 模块定义了最著名的数学函数，包括三角函数、表示函数、对数函数等。  
@@ -212,7 +212,7 @@ print(math.e)
 
     3.141592653589793
     2.718281828459045
-    
+
 
 ### 取对数
 #### 以e为底  
@@ -227,7 +227,7 @@ print('log(fabs(x), base) is',math.log(math.fabs(number),10))   #math.fabs()取�
 ```
 
     log(fabs(x), base) is -6.698970004336019
-    
+
 
 #### 以10为底
 `math.log10() `
@@ -241,7 +241,7 @@ print('log10(x) is :', math.log10(x))
 ```
 
     log10(x) is : 1.1139433523068367
-    
+
 
 ### 返回浮点数
 `math.exp()` 返回该数值以e为幂的结果
@@ -256,7 +256,7 @@ print('e^x (using exp() function) is :', math.exp(number))
 
     The given number (x) is : 1
     e^x (using exp() function) is : 2.718281828459045
-    
+
 
 ### 向下取整
 `math.floor(x)` 此方法返回 x 的底限值。它返回小于或等于 x 的值。
@@ -269,7 +269,7 @@ print("The floor value is:",number)
 ```
 
     The floor value is: 10
-    
+
 
 
 
@@ -285,7 +285,7 @@ print("The ceil value is:",number)
 ```
 
     The ceil value is: 11
-    
+
 
 ### 阶乘运算
 math.factorial() 此方法返回给定数字 x 的阶乘。如果 x 不是整数，会引发 ValueError。
@@ -298,7 +298,7 @@ print("The factorial of number:",number)
 ```
 
     The factorial of number: 5040
-    
+
 
 ### 幂运算
 `math.pow(x,y)` 此方法返回与 y 值对应的 x 的幂。如果 x 的值为负数或 y 不是整数，则会引发 ValueError。
@@ -311,7 +311,7 @@ print("The power of number:",number)
 ```
 
     The power of number: 100.0
-    
+
 
 ## Random 随机库
 Random模块提供了进行随机选择的工具：  
@@ -335,7 +335,7 @@ print(random.randrange(6)) # random integer chosen from range(6)
     [23, 77, 16, 57, 75, 17, 67, 6, 72, 89]
     0.4897683840477597
     5
-    
+
 
 ## 数据统计
 统计模块计算数值数据的基本统计属性（平均值、中位数、方差等）
@@ -356,7 +356,7 @@ print(statistics.variance(data))
     1.6071428571428572
     1.25
     1.3720238095238095
-    
+
 
 ## 日期时间
 Python 提供的 datetime 模块可以处理真实的日期和时间。  
@@ -379,7 +379,7 @@ print(time.time())
 ```
 
     1732152892.721108
-    
+
 
 #### 获取当前时间
 time模块的 `localtime()` 函数用于获取当前时间元组。请看下面的示例。
@@ -391,7 +391,7 @@ print(time.localtime(time.time()))
 ```
 
     time.struct_time(tm_year=2024, tm_mon=11, tm_mday=21, tm_hour=12, tm_min=46, tm_sec=46, tm_wday=3, tm_yday=326, tm_isdst=0)
-    
+
 
 #### 获取格式化时间
 使用time模块的 `asctime()` 函数可以格式化时间。它会返回所传递时间元组的格式化时间。
@@ -403,7 +403,7 @@ print(time.asctime(time.localtime(time.time())))
 ```
 
     Thu Nov 21 09:36:21 2024
-    
+
 
 ### Datetime模块
  datetime 模块使我们能够创建自定义日期对象，对日期执行各种操作，如比较等。要以日期对象的形式处理日期，我们必须在 python 源代码中导入 datetime 模块。  
@@ -437,7 +437,7 @@ print(cal)
     20 21 22 23 24 25 26
     27 28 29 30 31
     
-    
+
 
 ## 数据压缩
 模块直接支持常见的数据归档和压缩格式，包括：zlib、gzip、bz2、lzma、zipfile 和 tarfile。
@@ -464,4 +464,4 @@ print(zlib.crc32(s))
     37 b'x\x9c+\xcf,I\xceP(\xcf\xc8\x04\x92\x19\x89\xc5PV9H4\x15\xc8+\xca,.Q(O\x04\xf2\x00D?\x0f\x89'
     b'witch which has which witches wrist watch'
     226805979
-    
+
