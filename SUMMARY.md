@@ -44,6 +44,7 @@
 * Chapter 6  Introduction to Object Oriented Programming
 
   * [Note  Chapter 6  Introduction to Object Oriented Programming](Chapter_6__Introduction_to_Object_Oriented_Programming/Note__Chapter_6__Introduction_to_Object_Oriented_Programming.md)
+  * [Assignment  Chapter 6  Introduction to Object Oriented Programming](Chapter_6__Introduction_to_Object_Oriented_Programming/Assignment__Chapter_6__Introduction_to_Object_Oriented_Programming.md)
 
 * Chapter 1  Introduction to Python Programming
 
