@@ -7,6 +7,10 @@
   * [Assignment  Chapter 4  Working with Functions in Python](Chapter_4__Working_with_Functions_in_Python/Assignment__Chapter_4__Working_with_Functions_in_Python.md)
   * [Note  Chapter 4  Working with Functions in Python ](Chapter_4__Working_with_Functions_in_Python/Note__Chapter_4__Working_with_Functions_in_Python_.md)
 
+* Chapter 7  File Handling
+
+  * [Note Chapter 7  File Handling](Chapter_7__File_Handling/Note_Chapter_7__File_Handling.md)
+
 * Chapter 3  Working with collections and structures
 
   * [Note  Chapter 3  Working with collections and structures](Chapter_3__Working_with_collections_and_structures/Note__Chapter_3__Working_with_collections_and_structures.md)
