@@ -50,6 +50,10 @@
   * [Note  Chapter 6  Introduction to Object Oriented Programming](Chapter_6__Introduction_to_Object_Oriented_Programming/Note__Chapter_6__Introduction_to_Object_Oriented_Programming.md)
   * [Assignment  Chapter 6  Introduction to Object Oriented Programming](Chapter_6__Introduction_to_Object_Oriented_Programming/Assignment__Chapter_6__Introduction_to_Object_Oriented_Programming.md)
 
+* Chapter 8  Regular Expressions
+
+  * [Note  Chapter 8  Regular Expressions](Chapter_8__Regular_Expressions/Note__Chapter_8__Regular_Expressions.md)
+
 * Chapter 1  Introduction to Python Programming
 
   * [Assignment  Chapter 1  Introduction to Python Programming](Chapter_1__Introduction_to_Python_Programming/Assignment__Chapter_1__Introduction_to_Python_Programming.md)

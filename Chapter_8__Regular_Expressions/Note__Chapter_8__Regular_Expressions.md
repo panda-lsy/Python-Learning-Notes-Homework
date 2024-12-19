@@ -1,0 +1,120 @@
+# 正则表达式
+正则表达式通常称为模式，是一种表达式，用于指定特定目的所需的一组字符串。指定有限字符串集的简单方法是列出其元素或成员。但是通常有更简洁的方法来指定所需的字符串集。
+
+## 正则表达式介绍
+在使用正则表达式库之前，必须将其导入程序。 最简单的正则表达式库最简单的用法是 search () 函数。
+
+### rstrip()方法
+Python rstrip() 删除 string 字符串末尾的指定字符，默认为空白符，包括空格、换行符、回车符、制表符。
+
+### re.search方法
+re.search 扫描整个字符串并返回第一个成功的匹配。
+
+函数语法：
+`re.search(pattern, string, flags=0)`
+
+
+```python
+# Program
+# Search for lines that contain 'is' 
+import re 
+hand = open('myfile.txt') 
+for line in hand: 
+    line = line.rstrip() 
+    if re.search('is', line): 
+        print(line)
+```
+
+    This is line 1
+    This is line 2
+    This is line 3
+    This is line 4
+    This is line 5
+    This is line 6
+    This is line 7
+    This is line 8
+    This is line 9
+    This is line 10
+
+
+当我们在搜索字符串中添加特殊字符时，正则表达式的威力就体现出来了，这些特殊字符可以让我们更精确地控制哪些行与字符串匹配。在正则表达式中添加这些特殊字符后，我们只需编写很少的代码，就能进行复杂的匹配和提取。例如，在正则表达式中，“^”用于匹配一行的 “开头”。我们可以修改程序，只匹配 “is ”位于行首的行，如下所示：
+
+
+```python
+# Program
+# Search for lines that start with 'is' 
+import re 
+hand = open('myfile.txt')
+for line in hand: 
+    line = line.rstrip() 
+    if re.search('^is', line): 
+        print(line) 
+```
+
+## re.match函数
+re.match 尝试从字符串的起始位置匹配一个模式，如果不是起始位置匹配成功的话，match() 就返回 none。
+函数语法：
+`re.match(pattern, string, flags=0)`
+
+
+```python
+# Program
+#!/usr/bin/python
+import re
+ 
+line = "Cats are smarter than dogs"
+ 
+matchObj = re.match( r'(.*) are (.*?) .*', line, re.M|re.I)
+ 
+if matchObj:
+   print("matchObj.group() : ", matchObj.group())
+   print("matchObj.group(1) : ", matchObj.group(1))
+   print("matchObj.group(2) : ", matchObj.group(2))
+else:
+   print("No match!!")
+```
+
+### re.match与re.search的区别
+re.match只匹配字符串的开始，如果字符串开始不符合正则表达式，则匹配失败，函数返回None；而re.search匹配整个字符串，直到找到一个匹配。
+
+### findall方法
+在字符串中找到正则表达式所匹配的所有子串，并返回一个列表，如果有多个匹配模式，则返回元组列表，如果没有找到匹配的，则返回空列表。  
+注意： match 和 search 是匹配一次 findall 匹配所有。  
+语法格式为：  
+`findall(string[, pos[, endpos]])`  
+
+
+```python
+# Program
+import re
+text='NIIT 1234 a'
+data = re.findall("[a-z]+",text)
+print(data)
+```
+
+    ['a']
+
+
+## 正则表达式（RE）语法
+`import re`
+- Python 附带的 "re "模块，主要用于字符串搜索和操作
+- 还经常用于网页 "抓取"（从网站上提取大量数据）
+我们将从这个简单的练习开始表达式教程，使用表达式 (w+) 和 (^)。
+### w+ 和 ^ 表达
+- "^": 该表达式匹配字符串的开头
+- "w+": 该表达式匹配字符串中的字母数字字符
+下面我们将举例说明如何在代码中使用 w+ 和 ^ 表达式。
+
+
+```python
+# Program
+import re 
+xx = "Math100,education is fun" 
+r1 = re.findall(r"^\w+",xx) 
+print(r1) 
+```
+
+    ['Math100']
+
+
+
