@@ -2,6 +2,10 @@
 
 * [README](README.md)
 
+* Chapter 10  Networked Programs
+
+  * [Chapter 10  Networked Programs](Chapter_10__Networked_Programs/Chapter_10__Networked_Programs.md)
+
 * Chapter 4  Working with Functions in Python
 
   * [Assignment  Chapter 4  Working with Functions in Python](Chapter_4__Working_with_Functions_in_Python/Assignment__Chapter_4__Working_with_Functions_in_Python.md)
@@ -20,6 +24,10 @@
 
   * [Note  Chapter 5  Use of Standard Library](Chapter_5__Use_of_Standard_Library/Note__Chapter_5__Use_of_Standard_Library.md)
   * [Assignment  Chapter 5  Use of Standard Library](Chapter_5__Use_of_Standard_Library/Assignment__Chapter_5__Use_of_Standard_Library.md)
+
+* Chapter 9  Using database and SQL
+
+  * [Note  Chapter 9  Using database and SQL](Chapter_9__Using_database_and_SQL/Note__Chapter_9__Using_database_and_SQL.md)
 
 * .github
 

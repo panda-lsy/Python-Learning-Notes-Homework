@@ -4,10 +4,17 @@
 ## 正则表达式介绍
 在使用正则表达式库之前，必须将其导入程序。 最简单的正则表达式库最简单的用法是 search () 函数。
 
-### rstrip()方法
-Python rstrip() 删除 string 字符串末尾的指定字符，默认为空白符，包括空格、换行符、回车符、制表符。
+## re模块
+`import re`
+- Python 附带的 "re "模块，主要用于字符串搜索和操作
+- 还经常用于网页 "抓取"（从网站上提取大量数据）
+我们将从这个简单的练习开始表达式教程，使用表达式 (w+) 和 (^)。
 
-### re.search方法
+## rstrip()方法
+Python rstrip() 删除 string 字符串末尾的指定字符，默认为空白符，包括空格、换行符、回车符、制表符。
+同理,`lstrip()`删除左边,`strip()`删除的两边。
+
+## re.search方法
 re.search 扫描整个字符串并返回第一个成功的匹配。
 
 函数语法：
@@ -95,14 +102,65 @@ print(data)
     ['a']
 
 
+
+```python
+# Program
+import re
+text='NIIT 1234 a'
+data = re.findall("[A-Za-z]+",text)
+print(data)
+```
+
+    ['NIIT', 'a']
+
+
+## re.sub()方法
+Python 的 re 模块提供了re.sub用于替换字符串中的匹配项。
+语法：
+`re.sub(pattern, repl, string, count=0, flags=0)`
+参数：
+- pattern : 正则中的模式字符串。
+- repl : 替换的字符串，也可为一个函数。
+- string : 要被查找替换的原始字符串。
+- count : 模式匹配后替换的最大次数，默认 0 表示替换所有的匹配。
+
+
+```python
+# Program
+import re
+txt='abc edf ahs'
+txt=re.sub('a','mou',txt,count=0)
+print(txt)
+```
+
+    moubc edf mouhs
+
+
+### re.split()方法
+split 方法按照能够匹配的子串将字符串分割后返回列表，它的使用形式如下：  
+`re.split(pattern, string[, maxsplit=0, flags=0])`
+- pattern	匹配的正则表达式
+- string	要匹配的字符串。
+- maxsplit	分隔次数，maxsplit=1 分隔一次，默认为 0，不限制次数。
+- flags	标志位，用于控制正则表达式的匹配方式，如：是否区分大小写，多行匹配等等。
+
+
+```python
+# Program
+import re
+txt='as,dq.ad,'
+txt=re.split(r"\W",txt)
+print(txt)
+```
+
+    ['as', 'dq', 'ad', '']
+
+
 ## 正则表达式（RE）语法
-`import re`
-- Python 附带的 "re "模块，主要用于字符串搜索和操作
-- 还经常用于网页 "抓取"（从网站上提取大量数据）
-我们将从这个简单的练习开始表达式教程，使用表达式 (w+) 和 (^)。
+### 元字符
 ### w+ 和 ^ 表达
 - "^": 该表达式匹配字符串的开头
-- "w+": 该表达式匹配字符串中的字母数字字符
+- "w+": 该表达式匹配字符串中的字母数字字符  
 下面我们将举例说明如何在代码中使用 w+ 和 ^ 表达式。
 
 
@@ -116,5 +174,15 @@ print(r1)
 
     ['Math100']
 
+
+## \字符
+将下一个字符标记为一个特殊字符、或一个原义字符、或一个 向后引用、或一个八进制转义符。例如，'n' 匹配字符 "n"。'\n' 匹配一个换行符。序列 '\\' 匹配 "\" 而 "\(" 则匹配 "("。
+
+## $字符
+匹配输入字符串的结束位置。如果设置了RegExp 对象的 Multiline 属性，$ 也匹配 '\n' 或 '\r' 之前的位置。
+
+## \D与\d字符
+\d 匹配一个数字字符。等价于 [0-9]。  
+\D 匹配一个非数字字符。等价于 [^0-9]。
 
 
